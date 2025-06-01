@@ -1,0 +1,29 @@
+.button{
+    background-color: #065aae; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 19.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4.4px 2.4px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+
+
+.button:hover {
+    background-color: #065aae; /* Darker green */
+}
+
+.logo{
+    font-family: poppins, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #065aae;
+    font-style: bold;
+    margin-left:6px ;
+
+}
