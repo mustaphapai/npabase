@@ -4,6 +4,8 @@ import Signup from "../src/pages/signup" // Import the Signup component
 import Login from "../src/pages/login" // Import the Login component
 import Password from './pages/password'
 import Dashboard from './pages/dashboard' // Import the Dashboard component
+import Admissions from './pages/admissions'
+import ViewPost from './pages/post_view'
 
 function App() {
  
@@ -12,11 +14,12 @@ function App() {
     <HashRouter>
             <Routes>
         <Route path="/" element={<HomePage />} /> 
-         <Route path="/signup" element={<Signup />} /> 
-          <Route path="/login" element={<Login />} /> 
-          <Route path="/password" element={<Password />} /> 
-           <Route path="/dashboard" element={<Dashboard />} /> 
-
+        <Route path="/signup" element={<Signup />} /> 
+        <Route path="/login" element={<Login />} /> 
+        <Route path="/password" element={<Password />} /> 
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/admissions" element={<Admissions />} />
+        <Route path="/view" element={<ViewPost />} />
      
       </Routes>
     </HashRouter>
